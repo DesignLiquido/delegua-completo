@@ -1,0 +1,46 @@
+{
+  "name": "delegua",
+  "version": "0.0.1",
+  "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesignLiquido/delegua-completo.git"
+  },
+  "scripts": {
+    "empacotar": "rm -Rf ./dist && copyfiles -V ./README.md ./dist",
+    "publicar-npm": "npm publish --access public",
+    "release": "release-it"
+  },
+  "keywords": [
+    "delegua",
+    "egua",
+    "matemática",
+    "física",
+    "estatística"
+  ],
+  "author": "Leonel Sanches da Silva",
+  "contributors": [
+    {
+      "name": "Leonel Sanches da Silva",
+      "url": "https://www.linkedin.com/in/leonelsanchesdasilva/"
+    },
+    {
+      "name": "Samuel Renan Gonçalves Vaz",
+      "url": "https://www.linkedin.com/in/samuel-renan-gon%C3%A7alves-vaz-b6b83a103/"
+    },
+    {
+      "name": "Alessandro Fuhr de Mello",
+      "url": "https://www.linkedin.com/in/alessandro-fuhr-de-mello/"
+    }
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@designliquido/delegua": "0.6.0",
+    "@designliquido/delegua-estatistica": "0.0.5",
+    "@designliquido/delegua-fisica": "0.0.2",
+    "@designliquido/delegua-matematica": "0.0.2"
+  }
+}
