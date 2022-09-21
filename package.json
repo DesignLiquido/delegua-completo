@@ -8,8 +8,7 @@
   },
   "scripts": {
     "empacotar": "rm -Rf ./dist && copyfiles -V ./README.md ./dist",
-    "publicar-npm": "npm publish --access public",
-    "release": "release-it"
+    "publicar-npm": "npm publish --access public"
   },
   "keywords": [
     "delegua",
