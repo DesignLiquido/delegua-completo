@@ -6,6 +6,7 @@ Pacote da Linguagem Delégua para NPM com todas as blbliotecas implementadas at�
 - Biblioteca para estatística: https://github.com/DesignLiquido/delegua-estatistica
 - Biblioteca para física: https://github.com/DesignLiquido/delegua-fisica
 - Biblioteca para matemática: https://github.com/DesignLiquido/delegua-matematica
+- Biblioteca para manejo de datas e horas: https://github.com/DesignLiquido/delegua-tempo
 
 Outra vantagem do uso deste pacote é a paridade de versões entre o núcleo e as bibliotecas. Por esta forma de instalação, todas as versões das bibliotecas estão devidamente pareadas com a versão da linguagem em si.
 
