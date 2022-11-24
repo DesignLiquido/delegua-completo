@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-fisica/-/delegua-fisica-0.0.2.tgz#182423e733b376b2d2853cbede66af33917f9466"
   integrity sha512-7Sp+Vg7SBy/5M9vH7pXOw4udHIdGWThGxAtAWdBZBO9GzUjJGczfZi6+vJLj/pFfn/345l9ffN3rtSqYgbQM8w==
 
-"@designliquido/delegua-matematica@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.0.2.tgz#2a73c0d3f83bf6e6824b89199645f95b6677ce0c"
-  integrity sha512-k3LHTe/uTwl0TPePoL6FLbQoGofy9YnJGR08lhsj9dRloyByl6F1gWgSw4FDRpMe3UkEdoozhwS3D3b6Vf6XNg==
+"@designliquido/delegua-matematica@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.1.0.tgz#ba9c8bd4b7f683f39bf04c7ed2083099baa29a73"
+  integrity sha512-sIQZ3NIh9ilAlUQkViPbKLr1hnLIJkQHoZEDmbvenxR2t7q5LW5+B3WNdfoZu4ZuieejtNEjBrdlC4CZ4NKLQw==
 
 "@designliquido/delegua-tempo@0.0.1":
   version "0.0.1"
