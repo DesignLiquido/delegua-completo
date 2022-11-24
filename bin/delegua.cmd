@@ -1,1 +1,1 @@
-node ..\node_modules\@designliquido\delegua\index.js %*
+node ..\node_modules\@designliquido\delegua\execucao.js %*
