@@ -40,7 +40,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@designliquido/delegua": "0.9.5",
+    "@designliquido/delegua": "0.9.6",
     "@designliquido/delegua-estatistica": "0.0.5",
     "@designliquido/delegua-fisica": "0.0.2",
     "@designliquido/delegua-matematica": "0.1.0",
