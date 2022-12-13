@@ -12,24 +12,24 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-fisica/-/delegua-fisica-0.0.2.tgz#182423e733b376b2d2853cbede66af33917f9466"
   integrity sha512-7Sp+Vg7SBy/5M9vH7pXOw4udHIdGWThGxAtAWdBZBO9GzUjJGczfZi6+vJLj/pFfn/345l9ffN3rtSqYgbQM8w==
 
-"@designliquido/delegua-matematica@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.1.0.tgz#ba9c8bd4b7f683f39bf04c7ed2083099baa29a73"
-  integrity sha512-sIQZ3NIh9ilAlUQkViPbKLr1hnLIJkQHoZEDmbvenxR2t7q5LW5+B3WNdfoZu4ZuieejtNEjBrdlC4CZ4NKLQw==
+"@designliquido/delegua-matematica@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
+  integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
 "@designliquido/delegua-tempo@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.10.2.tgz#4998c5b7bb41977d00308e307d708b974ad8fc7c"
-  integrity sha512-xfDqFbekUYfXIHwpQvLewXoRy0oIc3oBzWeINZroo1wmvwguYyLG3lN6dMhGCuaRFBm6bs0TorW8gNBCfLEAZQ==
+"@designliquido/delegua@0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.10.3.tgz#570a5b780daf81f37f76bd604bb941a4ab96d4bd"
+  integrity sha512-n+1R5p7FmSZKtrmV76/irAtiH6KluVAbAfkspw/g9ROrG5HQ9G0jHkjBYm1SV4FohI1qYlSsHApvfTot8VSXbw==
   dependencies:
     browser-process-hrtime "^1.0.0"
     chalk "4.1.2"
-    commander "^8.3.0"
+    commander "^9.4.1"
 
 ansi-styles@^4.1.0:
   version "4.3.0"
@@ -63,10 +63,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-commander@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
-  integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
+commander@^9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.1.tgz#d1dd8f2ce6faf93147295c0df13c7c21141cfbdd"
+  integrity sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==
 
 has-flag@^4.0.0:
   version "4.0.0"
