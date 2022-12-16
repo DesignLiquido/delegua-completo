@@ -43,6 +43,7 @@
     "@designliquido/delegua": "0.10.5",
     "@designliquido/delegua-estatistica": "0.0.5",
     "@designliquido/delegua-fisica": "0.0.2",
+    "@designliquido/delegua-json": "^0.0.0",
     "@designliquido/delegua-matematica": "0.2.0",
     "@designliquido/delegua-tempo": "0.0.1"
   },
