@@ -27,14 +27,15 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@0.10.6":
-  version "0.10.6"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.10.6.tgz#b89ea45bb780b19b07cd80ae7035678ee3a8ed6e"
-  integrity sha512-vSYUG6j2ZJpbBaAeJPwCHSGQE1qgQWqIQxbQszGcBBIY47NKQ5SwwuFu6sKN6+73RX3xWgVbuiHCcy5vpUtgaA==
+"@designliquido/delegua@0.10.7":
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.10.7.tgz#b9db212b6336646c095c121aaed0c7c39dab310e"
+  integrity sha512-qYEEnz7O2fcWxOyJxlHBT5oKPK+tb6HQnHxpMMhae597pOBjpL1kzbbAkg9ft7QeXjcYf6iYLTDGs+e4CD3OOA==
   dependencies:
     browser-process-hrtime "^1.0.0"
     chalk "4.1.2"
     commander "^9.4.1"
+    esprima "^4.0.1"
 
 ansi-styles@^4.1.0:
   version "4.3.0"
@@ -90,6 +91,11 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
+
+esprima@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+  integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 fs.realpath@^1.0.0:
   version "1.0.0"
