@@ -7,7 +7,9 @@
 
   <p align="center">
     Linguagem de programação, derivada da <a href="https://egua.tech/docs/egua" target="_blank">Linguagem Égua</a>
-    <br />
+  </p>
+
+  <p align="center">
     <a href="https://designliquido.github.io/delegua-web/" target="_blank">Página Web com Interpretador Delégua para demonstrações</a>
   </p>
 
@@ -15,7 +17,7 @@
     <a href="https://github.com/DesignLiquido/delegua/issues" target="_blank"><img src="https://img.shields.io/github/issues/Designliquido/delegua" /></a>
     <img src="https://img.shields.io/github/stars/Designliquido/delegua" />
     <img src="https://img.shields.io/github/forks/Designliquido/delegua" />
-    <a href="https://www.npmjs.com/package/@designliquido/delegua" target="_blank"><img src="https://img.shields.io/npm/v/@designliquido/delegua" /></a>
+    <a href="https://www.npmjs.com/package/delegua" target="_blank"><img src="https://img.shields.io/npm/v/delegua" /></a>
     <img src="https://img.shields.io/github/license/Designliquido/delegua" />
     <br />
   </p>
@@ -40,6 +42,7 @@ Pacote da Linguagem Delégua para NPM com todas as blbliotecas implementadas at�
 - Biblioteca para física: https://github.com/DesignLiquido/delegua-fisica
 - Biblioteca para matemática: https://github.com/DesignLiquido/delegua-matematica
 - Biblioteca para manejo de datas e horas: https://github.com/DesignLiquido/delegua-tempo
+- Biblioteca para manejo de JSON (JavaScript Object Notation): https://github.com/DesignLiquido/delegua-json
 
 Outra vantagem do uso deste pacote é a paridade de versões entre o núcleo e as bibliotecas. Por esta forma de instalação, todas as versões das bibliotecas estão devidamente pareadas com a versão da linguagem em si.
 
