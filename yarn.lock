@@ -85,9 +85,9 @@ has-flag@^4.0.0:
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
 rimraf@^4.0.4:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-4.0.7.tgz#f438c7d6a2d5e5cca1d81e3904a48ac7b053a542"
-  integrity sha512-CUEDDrZvc0swDgVdXGiv3FcYYQMpJxjvSGt85Amj6yU+MCVWurrLCeLiJDdJPHCzNJnwuebBEdcO//eP11Xa7w==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-4.1.2.tgz#20dfbc98083bdfaa28b01183162885ef213dbf7c"
+  integrity sha512-BlIbgFryTbw3Dz6hyoWFhKk+unCcHMSkZGrTFVAx2WmttdBSonsdtRlwiuTbDqTKr+UlXIUqJVS4QT5tUzGENQ==
 
 supports-color@^7.1.0:
   version "7.2.0"
