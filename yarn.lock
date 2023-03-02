@@ -98,9 +98,9 @@ has-flag@^4.0.0:
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
 rimraf@^4.0.4:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-4.1.2.tgz#20dfbc98083bdfaa28b01183162885ef213dbf7c"
-  integrity sha512-BlIbgFryTbw3Dz6hyoWFhKk+unCcHMSkZGrTFVAx2WmttdBSonsdtRlwiuTbDqTKr+UlXIUqJVS4QT5tUzGENQ==
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-4.1.3.tgz#e8ace19d5f009b4fa6108deeaffe39ef68bba194"
+  integrity sha512-iyzalDLo3l5FZxxaIGUY7xI4Bf90Xt7pCipc1Mr7RsdU7H3538z+M0tlsUDrz0aHeGS9uNqiKHUJyTewwRP91Q==
 
 supports-color@^7.1.0:
   version "7.2.0"
