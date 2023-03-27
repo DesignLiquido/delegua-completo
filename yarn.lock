@@ -22,12 +22,12 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.13.0.tgz#389919824e17171158b77d1e021f9e2ec09267d0"
-  integrity sha512-MJMKdkmycVeQ2zE1vvurXL1EGEY3nkiP/At3YzgurNHRUJIg+4Ose1TmD1hCRSCEDmnupkQMAGmML8WG4YyCnQ==
+"@designliquido/delegua-node@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.14.0.tgz#0be6471885a98f9eaf847c505df2bb4ac63d7900"
+  integrity sha512-4LOSb1iIy2PKhTW7f7qPTwyNnitwulku/sZrCg+RsyOaOpdqqy0qy/Wn11900HMz+c1vbSgrjpHIHqVGJV4rKg==
   dependencies:
-    "@designliquido/delegua" "^0.15.4"
+    "@designliquido/delegua" "^0.15.5"
     chalk "4.1.2"
     commander "^9.4.1"
 
@@ -36,10 +36,10 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@^0.15.4":
-  version "0.15.4"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.15.4.tgz#11ffd5e70c720901029c3b72c4456fa8454c3267"
-  integrity sha512-uxmrwk8z3RDniFWw235nDR2YT1mFqUA8yDWj6Ownd5XvKlU+OJns1VQYiWR+Jwp4habcx823ooPShN/jq1FLoA==
+"@designliquido/delegua@^0.15.5":
+  version "0.15.5"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.15.5.tgz#d6ba3a598ba84df1be92e70b5f225f0e7bd76a0d"
+  integrity sha512-nUlg/UUyMQvXen4VXoawunMdlnDAEYLMvod85RacsKxfsTUz/rC6nRXk4thX3yUG3RJVEm6eTPUDA/Ob1mqmPA==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
     browser-process-hrtime "^1.0.0"
