@@ -48,6 +48,6 @@
     "@designliquido/delegua-tempo": "0.0.1"
   },
   "devDependencies": {
-    "rimraf": "^4.0.4"
+    "rimraf": "^5.0.0"
   }
 }
