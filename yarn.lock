@@ -22,12 +22,12 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@0.20.4":
-  version "0.20.4"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.20.4.tgz#157db8588db51e62d5d424da52518fb26fc32478"
-  integrity sha512-FgcPxESqglUZ2+AWF+Hg9icGlmapDLxw2OZ3sQLzoJroAyuNeXtf/Lp9GVxAsStS23J9dtduc9sCinizKBe/Lw==
+"@designliquido/delegua-node@0.20.9":
+  version "0.20.9"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.20.9.tgz#837124e0ad23940fdf80307ead4e912fac48b3e9"
+  integrity sha512-AMnzOML5u/4YrLB2M3Ri5G+umZ9cbJJ5sjXMMhYoKElSOYFk47OI/bU0FetUkR+Yx8TTQ6y4Eo+PXmeVFKY0ng==
   dependencies:
-    "@designliquido/delegua" "0.20.4"
+    "@designliquido/delegua" "0.20.9"
     chalk "4.1.2"
     commander "^9.4.1"
 
@@ -36,14 +36,15 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@0.20.4":
-  version "0.20.4"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.20.4.tgz#204b51b607062b80008a794da7ec586679dabf4e"
-  integrity sha512-lTeZwXRvX+wpNgIEj+CoBGilQf1UvQmGxgYprE6E6SQcqBbrlpG2I0BYN6tIUuUARU0RTDUMU3ooW1vMaKb+7w==
+"@designliquido/delegua@0.20.9":
+  version "0.20.9"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.20.9.tgz#99f05327758c6dd0887f050b842a7897bc8719c1"
+  integrity sha512-bbJanHYIicJRshQMlXB5FZuro44CchL+hQ7TYl1rUqxsz76N7rA+h1B/gzTAC4AbrjBPa3UOHNJ/nU/8d3AuHQ==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
     browser-process-hrtime "^1.0.0"
     esprima "^4.0.1"
+    lodash.clonedeep "^4.5.0"
 
 ansi-styles@^4.1.0:
   version "4.3.0"
@@ -123,6 +124,11 @@ has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
 
 lru-cache@^9.0.0:
   version "9.0.0"
