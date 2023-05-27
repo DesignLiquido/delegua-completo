@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "0.20.14",
+  "version": "0.21.0",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais.",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Samuel Renan Gonçalves Vaz",
-      "url": "https://www.linkedin.com/in/samuel-renan-gon%C3%A7alves-vaz-b6b83a103/"
+      "url": "https://www.linkedin.com/in/samuel-renan-goncalves-vaz/"
     },
     {
       "name": "Alessandro Fuhr de Mello",
@@ -40,7 +40,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@designliquido/delegua-node": "0.20.14",
+    "@designliquido/delegua-node": "0.21.0",
     "@designliquido/delegua-estatistica": "0.0.5",
     "@designliquido/delegua-fisica": "0.0.2",
     "@designliquido/delegua-json": "^0.0.0",
