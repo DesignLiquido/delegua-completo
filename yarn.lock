@@ -22,12 +22,12 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.21.0.tgz#22188a065fcd95a188ab4835da056588c0626e60"
-  integrity sha512-mAVk7h+RwLTbmrQA6JJcs6VVJXLlrU6W5ScAF4u/JgQ3qSiC2xfbLkWwRYQtrA0lzoNCmD5Bg2eNaU3BwNY3RA==
+"@designliquido/delegua-node@0.21.3":
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.21.3.tgz#f4a5e11c2be16469adfb1af8840322b46bcfcb88"
+  integrity sha512-y0Y7Eyc0GnSVmNPtky09rOVLm4dR6fzFB+en4qAEhoo62RZYzQ53ZrU0XcdDUm438VQ7wnWSuztAlHERSjQxwQ==
   dependencies:
-    "@designliquido/delegua" "0.21.0"
+    "@designliquido/delegua" "0.21.3"
     chalk "4.1.2"
     commander "^9.4.1"
     json-colorizer "^2.2.2"
@@ -38,10 +38,10 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.21.0.tgz#ba6e5c8c8d554e4f9b2d55c431f0a9b78d5db54f"
-  integrity sha512-hm1r6GYusk98WQUl+zwANNfNx94TAjxASIXX49yJxjffkw0uuRagP6SYnv03jQj6ZO0R1zOLt4F0/iE6BKdzeA==
+"@designliquido/delegua@0.21.3":
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.21.3.tgz#714e2b1fc49564ff164e1a330d9466adad761231"
+  integrity sha512-BlZ0fmAJpMYPoKkXudHO+8it+5I/P33IL56QjTN9gT+Eznz5M6rW7HTTLBTPpyrkU1R5T6XJOaPKdmMtxUQemA==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
     browser-process-hrtime "^1.0.0"
@@ -261,6 +261,11 @@ lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
   integrity sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lru-cache@^9.1.1:
   version "9.1.1"
