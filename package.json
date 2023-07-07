@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "0.21.9",
+  "version": "0.22.3",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais.",
   "repository": {
     "type": "git",
