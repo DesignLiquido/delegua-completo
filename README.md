@@ -43,6 +43,7 @@ Pacote da Linguagem Delégua para NPM com todas as blbliotecas implementadas at�
 - Biblioteca para matemática: https://github.com/DesignLiquido/delegua-matematica
 - Biblioteca para manejo de datas e horas: https://github.com/DesignLiquido/delegua-tempo
 - Biblioteca para manejo de JSON (JavaScript Object Notation): https://github.com/DesignLiquido/delegua-json
+- Biblioteca para requisições HTTP: https://github.com/DesignLiquido/delegua-http
 
 Outra vantagem do uso deste pacote é a paridade de versões entre o núcleo e as bibliotecas. Por esta forma de instalação, todas as versões das bibliotecas estão devidamente pareadas com a versão da linguagem em si.
 
