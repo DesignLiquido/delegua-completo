@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "0.24.7",
+  "version": "0.24.8",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais.",
   "repository": {
     "type": "git",
@@ -15,7 +15,6 @@
   },
   "keywords": [
     "delegua",
-    "egua",
     "matemática",
     "física",
     "estatística"
@@ -40,7 +39,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@designliquido/delegua-node": "0.24.7",
+    "@designliquido/delegua-node": "0.24.8",
     "@designliquido/delegua-estatistica": "0.0.5",
     "@designliquido/delegua-fisica": "0.0.2",
     "@designliquido/delegua-http": "0.0.2",
