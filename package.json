@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "0.33.11",
+  "version": "0.33.12",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais.",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "publicar-npm": "npm publish --access public"
   },
   "bin": {
-    "delegua": "./bin/delegua"
+    "delegua": "bin/delegua"
   },
   "keywords": [
     "delegua",
