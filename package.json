@@ -1,13 +1,13 @@
 {
   "name": "delegua",
-  "version": "0.33.13",
+  "version": "0.33.14",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DesignLiquido/delegua-completo.git"
   },
   "scripts": {
-    "empacotar": "rimraf ./dist && copyfiles -V ./README.md ./dist && copyfiles -V ./LICENSE ./dist",
+    "empacotar": "yarn rimraf ./dist && yarn copyfiles -V ./README.md ./dist && yarn copyfiles -V ./LICENSE ./dist",
     "publicar-npm": "npm publish --access public"
   },
   "bin": {
@@ -40,16 +40,17 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@designliquido/delegua-node": "0.33.13",
     "@designliquido/delegua-estatistica": "0.0.5",
     "@designliquido/delegua-fisica": "0.0.2",
     "@designliquido/delegua-http": "0.0.2",
     "@designliquido/delegua-json": "0.0.0",
     "@designliquido/delegua-matematica": "0.2.0",
+    "@designliquido/delegua-node": "0.33.14",
     "@designliquido/delegua-tempo": "0.0.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "rimraf": "^5.0.0"
   }
 }
