@@ -36,14 +36,14 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@0.33.15":
-  version "0.33.15"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-0.33.15.tgz#28eca0ec7f38c76b631b665b8f57f1c082ce4a9d"
-  integrity sha512-XrJ813ZnyPRNT6Drvw94WCvaRNfUNfnQX7yztw9lwbRw7F9dmJwH0G9x8ln7sAeWyF0DC3C2iuASwjEcw8SX5w==
+"@designliquido/delegua-node@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.0.0.tgz#a963220b59cef38d7366598bc04728157e2ded33"
+  integrity sha512-L2W/+UpkQPNjn8j2aQVxJ1hlAZ0wELTegsdO4RPichISZ7QkPR0w4f3Vna5V2doCRp8rYLNK5P5rr3AiVhWYYA==
   dependencies:
     "@designliquido/birl" "^0.0.1"
-    "@designliquido/delegua" "0.33.14"
-    "@designliquido/portugol-studio" "^0.0.2"
+    "@designliquido/delegua" "0.33.15"
+    "@designliquido/portugol-studio" "^0.0.3"
     "@designliquido/potigol" "^0.0.3"
     "@designliquido/visualg" "^0.0.4"
     chalk "4.1.2"
@@ -55,52 +55,22 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@0.33.14", "@designliquido/delegua@^0.33.13":
-  version "0.33.14"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.33.14.tgz#fe3cc411ca35c3034a3190f7eb7e1f1eb2558dba"
-  integrity sha512-D962aaGGn1Cxyd/d3xy3XLEIclHDeDXDC0RiRqPdPASO1HuFthfVVJvUaN295R2GzVWxkVlPst7OMLTZO1FAyQ==
+"@designliquido/delegua@0.33.15", "@designliquido/delegua@^0.33.11", "@designliquido/delegua@^0.33.12", "@designliquido/delegua@^0.33.13", "@designliquido/delegua@^0.33.15":
+  version "0.33.15"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.33.15.tgz#c7ab793e4931fbaea51ab671e47e1924078914d7"
+  integrity sha512-5Tv8qxVcnYOPA+MZ8Y7HyobxZOsWM1/bOkwcbdgrGenL4iUMucRmwx3DILbIrg5uPWVtNibWUlMxrEGYf3+jTQ==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
     browser-process-hrtime "^1.0.0"
     esprima "^4.0.1"
     lodash.clonedeep "^4.5.0"
 
-"@designliquido/delegua@^0.33.11":
-  version "0.33.11"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.33.11.tgz#4a5eed6d65e9209984a1bbf12a174452309981b2"
-  integrity sha512-kCFAjaevxWuzQMl1qwE9tz4ftw3iUSIuDLQ68pgASzFGwM6HgyXyw+9EsAD+PImxfoDxco9ewik5jHidrObySQ==
+"@designliquido/portugol-studio@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.0.3.tgz#fc2b9dbbb8f8a0976749b54aaf8d52319c6e3230"
+  integrity sha512-ifWcCNkzrsPr/EMkn0w9eqMv+arNNsAFvgqHr0OCpgLLlNdULcVU7kEcwWtiE4yT6JEe7pYF/FPHKx2w4NWqGQ==
   dependencies:
-    antlr4ts "^0.5.0-alpha.4"
-    browser-process-hrtime "^1.0.0"
-    esprima "^4.0.1"
-    lodash.clonedeep "^4.5.0"
-
-"@designliquido/delegua@^0.33.12":
-  version "0.33.13"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.33.13.tgz#963ae910fe3f46c89a78c6b7065937eb3bb6c8c4"
-  integrity sha512-V1MTdUyUr0zFw0cgA3d97hll0Wl+UStpIk0oMwCuZYTXlGoLj4mklPgdtyx/V5W28dyYxduIwyJ8iCiJt7/jRg==
-  dependencies:
-    antlr4ts "^0.5.0-alpha.4"
-    browser-process-hrtime "^1.0.0"
-    esprima "^4.0.1"
-    lodash.clonedeep "^4.5.0"
-
-"@designliquido/delegua@^0.33.6":
-  version "0.33.7"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.33.7.tgz#5d466159a726c4742c3e12123206c5d4976401f5"
-  integrity sha512-qdMr68nodMdduw3iEx+lqrD2uP3uqclYBR+iUgRmbqph6Diwon7Gnv6+IC49Nj6QFAoskydzGGl7DEMEyNxeeQ==
-  dependencies:
-    antlr4ts "^0.5.0-alpha.4"
-    browser-process-hrtime "^1.0.0"
-    esprima "^4.0.1"
-    lodash.clonedeep "^4.5.0"
-
-"@designliquido/portugol-studio@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.0.2.tgz#123a0a962f4d28fb2acef956942f17baf24d013c"
-  integrity sha512-uETiwZO+lHmciEVH2dUWg6vUwrVs7CFgWW+qNVXEvLz403q51DNJz9OdNUqGCsKae8uVU2T0oF8nu56kDo1QkQ==
-  dependencies:
-    "@designliquido/delegua" "^0.33.6"
+    "@designliquido/delegua" "^0.33.15"
 
 "@designliquido/potigol@^0.0.3":
   version "0.0.3"
@@ -607,16 +577,7 @@ signal-exit@^4.0.1:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-"string-width-cjs@npm:string-width@^4.2.0":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-string-width@^4.1.0, string-width@^4.2.0:
+"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -646,14 +607,7 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
-  dependencies:
-    ansi-regex "^5.0.1"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -706,16 +660,7 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
-  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
-wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
