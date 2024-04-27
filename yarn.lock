@@ -36,14 +36,14 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.1.4.tgz#490c946fd7b793c9f5dfb24c96ffe48f0afea776"
-  integrity sha512-HBiEpRSmd9a2E4NfS5PrDRs+Ai8+2X0zSyBhtnv738xbCM8Rgo0WNfXDeVsBLLw3WOvkaXDzVjdj0iPYkTzOaA==
+"@designliquido/delegua-node@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.1.5.tgz#098ec6de314941e550e609c8e6857913e56b625c"
+  integrity sha512-NDs4JjWrcmFopKNwPJUNecALmFAqvq/+8GA03kAibGtpeO6YyqDS6FGYefNxfWhQsoLpDEsH/5TOBmi20FrSEg==
   dependencies:
     "@designliquido/birl" "^0.0.1"
     "@designliquido/delegua" "0.33.16"
-    "@designliquido/portugol-studio" "^0.1.3"
+    "@designliquido/portugol-studio" "^0.1.4"
     "@designliquido/potigol" "^0.0.3"
     "@designliquido/visualg" "^0.0.5"
     chalk "4.1.2"
@@ -75,10 +75,10 @@
     esprima "^4.0.1"
     lodash.clonedeep "^4.5.0"
 
-"@designliquido/portugol-studio@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.1.3.tgz#9412b431420ebcea3800069b60cdfdbf5d2f09ee"
-  integrity sha512-FGWDmSh3/YGwn+fMnlf0FMD2Gzw7dugPdw1sE/D7db0R4os7yr195q9RDd3X5P+jYIXytfBCfthiQaK12/qMEg==
+"@designliquido/portugol-studio@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.1.4.tgz#060003b5f07093f25611ae80179a355e671f5f40"
+  integrity sha512-YJFXm4HreJh+ojfo/EAhXKLY1a9GLp/dqrdg1YRVGI2F64t+YdGaxax+mzgcxEUMvYe9au5hXsRylV8jDLR4ng==
   dependencies:
     "@designliquido/delegua" "^0.33.15"
 
