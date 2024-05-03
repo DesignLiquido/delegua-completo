@@ -37,16 +37,16 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.2.0.tgz#34dab48cd7df4a0c75932f175781d28d0bc69479"
-  integrity sha512-iPnlZ3suxLP49NUebtsTh4U9VyGrE0Y8jeqq4hhCnYt6TfkG2rfQfA18vKCYB/V3P72eBsIcxXFDqsEObjCAug==
+"@designliquido/delegua-node@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.2.2.tgz#c23512ade5d71f5228d2cfb428ffe88a2e93216e"
+  integrity sha512-oHoCPAgHEhRfs+uhIzK8si6uCYeeJfAqOqVlSwkow6+9KJ5odsHlTAVm/nCA3ewVEFAse0XCJS98QwLp1+sAIg==
   dependencies:
     "@designliquido/birl" "^0.1.0"
     "@designliquido/delegua" "0.34.0"
-    "@designliquido/portugol-studio" "^0.2.0"
+    "@designliquido/portugol-studio" "^0.2.1"
     "@designliquido/potigol" "^0.1.0"
-    "@designliquido/visualg" "^0.1.0"
+    "@designliquido/visualg" "^0.1.4"
     chalk "4.1.2"
     commander "^9.4.1"
     json-colorizer "^2.2.2"
@@ -66,10 +66,10 @@
     esprima "^4.0.1"
     lodash.clonedeep "^4.5.0"
 
-"@designliquido/portugol-studio@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.2.0.tgz#ba57ed8b9894d36d78f5bc73a2c6f219ff6598b9"
-  integrity sha512-soNn/eOQuBa6qzf4iIVCItyg2C5qEcjUFob/RcVZQh9Q2ylralcUUF7P1LS36TX4No8/a34PWcaQLewvjlmSMQ==
+"@designliquido/portugol-studio@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.2.1.tgz#46f7daa77a7848875fcfdae8d607062dc7ffeab5"
+  integrity sha512-D5Z0L6b7/wbK1yiVgWBkKT2Q365zrWiwOc/CmWbD0vxc0UDA9DVcuhF/JaQw02MImtBF0e5vo2l0eI+RQsVhNQ==
   dependencies:
     "@designliquido/delegua" "^0.34.0"
     lodash "^4.17.21"
@@ -82,10 +82,10 @@
     "@designliquido/delegua" "^0.34.0"
     lodash "^4.17.21"
 
-"@designliquido/visualg@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/visualg/-/visualg-0.1.0.tgz#3785300c5c32f5e34f9ad94df80875637085d42d"
-  integrity sha512-LZjISInK25b9Vi0xM+DmOvAqgItBj3IcGwP1l01IdMImKLSYe4YWvyGwLeEGgvC4FcOh1xwS61SQRjsci3dKig==
+"@designliquido/visualg@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@designliquido/visualg/-/visualg-0.1.4.tgz#cc48858dbc5a0f4477b32d33224f62d8fbb637d4"
+  integrity sha512-CwUmCDhAugDTxFzyGNSiVhqCdG8sFxJQ/gEXDXnV+czqmRo42oRnVCXKtGS53Lqhgm7cHOchF0SIOJYmyVlZOg==
   dependencies:
     "@designliquido/delegua" "^0.34.0"
     lodash "^4.17.21"
