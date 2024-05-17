@@ -37,16 +37,17 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.2.0.tgz#a1f15318cf3efc28f31297f7ff2ea7174d68a66e"
   integrity sha512-QG10FBbo7i+wW50+8s9lASBzJ8MdgPPcbfpsxFSU+7PEDGTrOalPtT6WbdhbWpV/meKl6q1lP7isLkeiF40WCQ==
 
-"@designliquido/delegua-node@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.2.3.tgz#b637def06e049837184f47f80a0d1d844249176f"
-  integrity sha512-B+zsIpcIMHwYVNqC2clVvglefqtGLykS1e5OSVfRRk7JMZMNLb75uy3sQ7F4lYgvVjpsBVnathMCrKSoVLcEQQ==
+"@designliquido/delegua-node@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.2.5.tgz#4013acabb02f651604c6d4313e12df6ff92f8ca5"
+  integrity sha512-PXMKsV8MUS3JaPQKs+Xv8y7qQDvaWsmnuJL2YVetaOHnt9xWQwNsavc5BTERAINN7xYjkh1JlILMwVCC3h6Xpw==
   dependencies:
     "@designliquido/birl" "^0.1.0"
-    "@designliquido/delegua" "0.34.2"
-    "@designliquido/portugol-studio" "^0.2.1"
+    "@designliquido/delegua" "0.34.3"
+    "@designliquido/mapler" "^0.0.1"
+    "@designliquido/portugol-studio" "^0.2.3"
     "@designliquido/potigol" "^0.1.0"
-    "@designliquido/visualg" "^0.1.4"
+    "@designliquido/visualg" "^0.1.5"
     chalk "4.1.2"
     commander "^9.4.1"
     json-colorizer "^2.2.2"
@@ -56,10 +57,10 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.1.tgz#964834d127354857cda1c388f5de9327735b6747"
   integrity sha512-/O1/eXlTXPTWSZGZ862i6uHHKCW0cmP6KnOV29zK4d4hgn03QjcNDeFKVC9L9vz3OJ6pPY0d/S8ANJkgBnnoaQ==
 
-"@designliquido/delegua@0.34.2":
-  version "0.34.2"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.34.2.tgz#0883fe4dbc2932a4f035d3dbf4499691a90787f0"
-  integrity sha512-SJkyAdwxXSO353df0VEtsbJNRVHiRW6ikLbu4EFKVl3vQ1LlLKp6Jw1uFOdWE46POebmg+2mOxe4EnmPop+Q1g==
+"@designliquido/delegua@0.34.3", "@designliquido/delegua@^0.34.3":
+  version "0.34.3"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.34.3.tgz#50c3c2234f2c6d301990ab22a7f7ad0aae891b77"
+  integrity sha512-0xH0HxpHpDyj30rpGFwpkKG6USdj5iCBHvZ7vtaGXTCWf8YH7MciVSxqTWt9Z2bwWNpv+n1XVJN3IbuWgsFnTg==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
     browser-process-hrtime "^1.0.0"
@@ -76,13 +77,23 @@
     esprima "^4.0.1"
     lodash.clonedeep "^4.5.0"
 
-"@designliquido/portugol-studio@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.2.1.tgz#46f7daa77a7848875fcfdae8d607062dc7ffeab5"
-  integrity sha512-D5Z0L6b7/wbK1yiVgWBkKT2Q365zrWiwOc/CmWbD0vxc0UDA9DVcuhF/JaQw02MImtBF0e5vo2l0eI+RQsVhNQ==
+"@designliquido/mapler@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@designliquido/mapler/-/mapler-0.0.1.tgz#2e46e7e8b300928c0ada19fae65c068f59a7d436"
+  integrity sha512-T09SZ7R4YVkvzD6zZhZ5AoT0o4XWrO6cIHgtEprccnk93nkS/eZYJ0k6Gjdgz3GYYedc8MgqZtGgxqoNk3LHrQ==
   dependencies:
-    "@designliquido/delegua" "^0.34.0"
+    "@designliquido/delegua" "^0.34.3"
     lodash "^4.17.21"
+    node-fetch "2"
+
+"@designliquido/portugol-studio@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.2.3.tgz#8b81f59e8de7d67327419007e6144f107ad38391"
+  integrity sha512-Wlb3ny/dNfcyqMZ6E/srjNpY6NJvCVd5xb6yPWGMpjF8I8//VLF/1zTS2N9Auw/hz8/slngfIb24aL2FFCfECQ==
+  dependencies:
+    "@designliquido/delegua" "^0.34.3"
+    lodash "^4.17.21"
+    node-fetch "2"
 
 "@designliquido/potigol@^0.1.0":
   version "0.1.0"
@@ -92,12 +103,12 @@
     "@designliquido/delegua" "^0.34.0"
     lodash "^4.17.21"
 
-"@designliquido/visualg@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@designliquido/visualg/-/visualg-0.1.4.tgz#cc48858dbc5a0f4477b32d33224f62d8fbb637d4"
-  integrity sha512-CwUmCDhAugDTxFzyGNSiVhqCdG8sFxJQ/gEXDXnV+czqmRo42oRnVCXKtGS53Lqhgm7cHOchF0SIOJYmyVlZOg==
+"@designliquido/visualg@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@designliquido/visualg/-/visualg-0.1.5.tgz#1cb95202d995887a22f527eaef187240ef325166"
+  integrity sha512-WqNGiZUhIpjh0Gx4S9QjiYR948zi35li2LidmZTWwc/ZNesnmY1t1mhNWZaZ+Aq7eWdBkPJLCitan4+VD4sDZg==
   dependencies:
-    "@designliquido/delegua" "^0.34.0"
+    "@designliquido/delegua" "^0.34.3"
     lodash "^4.17.21"
 
 "@isaacs/cliui@^8.0.2":
@@ -490,6 +501,13 @@ mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+node-fetch@2:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 noms@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/noms/-/noms-0.0.0.tgz#da8ebd9f3af9d6760919b27d9cdc8092a7332859"
@@ -672,6 +690,11 @@ through2@^2.0.1:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 untildify@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/untildify/-/untildify-4.0.0.tgz#2bc947b953652487e4600949fb091e3ae8cd919b"
@@ -681,6 +704,19 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which@^2.0.1:
   version "2.0.2"
