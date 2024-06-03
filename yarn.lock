@@ -27,10 +27,10 @@
   dependencies:
     axios "^1.4.0"
 
-"@designliquido/delegua-json@0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-json/-/delegua-json-0.0.0.tgz#0864f84e572694e9b15b9517a08105af04f92c3d"
-  integrity sha512-fwrAyEL/g9vF3w3SWZpWx2FIGc7i3QfY2i6txEWtq3snihdbHfGQejf2P6s1UJIDrRGXpTgP2dUTEpk6QZy9/A==
+"@designliquido/delegua-json@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-json/-/delegua-json-0.0.1.tgz#f23ef595da59559a5a6e6ec065ec462483834915"
+  integrity sha512-GZi9oN09Jh8hT2t1olZ5WMrkGwQgRRJIC2xtugM78JP77kCVh7jS8yjvzR4HaFzdx1zwUg2wPElmEYomEVwFgQ==
 
 "@designliquido/delegua-matematica@0.2.0":
   version "0.2.0"
