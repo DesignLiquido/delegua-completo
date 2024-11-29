@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@designliquido/birl@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@designliquido/birl/-/birl-0.1.7.tgz#1493ea1eb2c1c3957eded080acfe07e38dbe471f"
-  integrity sha512-AwVLLVxN5y3asUNrGtQtxmrKfUlhrI+PlFKPBKA2COwtzht9/LoFjgYBvHFmHSGj5uhrAgDr+b7DU9CjLf2OyA==
+"@designliquido/birl@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@designliquido/birl/-/birl-0.1.9.tgz#03061ec6ee755df204a9a7262edf6360a1737a57"
+  integrity sha512-nZHPdTDmj0syYSGXfF6Jb/Kvl9Qryf640Uj2HudC3/TvXeoV8xSfsWrlmY5LM8pI4Q5g6ZfvMKutRhwLKavRag==
   dependencies:
-    "@designliquido/delegua" "^0.36.2"
+    "@designliquido/delegua" "^0.37.2"
     lodash "^4.17.21"
 
 "@designliquido/delegua-estatistica@0.0.6":
@@ -44,69 +44,69 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.0.2.tgz#2a73c0d3f83bf6e6824b89199645f95b6677ce0c"
   integrity sha512-k3LHTe/uTwl0TPePoL6FLbQoGofy9YnJGR08lhsj9dRloyByl6F1gWgSw4FDRpMe3UkEdoozhwS3D3b6Vf6XNg==
 
-"@designliquido/delegua-node@1.3.17":
-  version "1.3.17"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.3.17.tgz#bd124a903e22fa729f254164e47240b3ec7089ad"
-  integrity sha512-ZPVwApUJBJOjG3j3cVf3ueZx5nbe+KHLpZIqhB8rEIYEqAt3vJmmVd2XMGnzn/ZlIiaHMHcQkja50AQ1tmYfvg==
+"@designliquido/delegua-node@1.3.20":
+  version "1.3.20"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.3.20.tgz#a7e1b8ea974fdb70756301efb6b811d1f9dc3604"
+  integrity sha512-RN5hXmiuA2AYqIMf7bYrHJGpmzdJYe5jIqNafpyg7HcVV2cTDJ7xIHzOJdICM3ZSyGj0kA5F84srxaEPJXBVnQ==
   dependencies:
-    "@designliquido/birl" "^0.1.7"
-    "@designliquido/delegua" "^0.36.2"
-    "@designliquido/mapler" "^0.1.8"
-    "@designliquido/portugol-studio" "^0.4.3"
-    "@designliquido/potigol" "^0.1.9"
-    "@designliquido/visualg" "^0.3.5"
+    "@designliquido/birl" "^0.1.9"
+    "@designliquido/delegua" "^0.37.2"
+    "@designliquido/mapler" "^0.1.10"
+    "@designliquido/portugol-studio" "^0.4.6"
+    "@designliquido/potigol" "^0.1.11"
+    "@designliquido/visualg" "^0.3.6"
     chalk "4.1.2"
-    commander "^9.4.1"
-    json-colorizer "^2.2.2"
+    commander "^12.1.0"
+    json-colorizer "^3.0.1"
 
 "@designliquido/delegua-tempo@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-tempo/-/delegua-tempo-0.0.2.tgz#c22fba26060b899c0f021f2c8e48974ef3578031"
   integrity sha512-RbnUVvTtfXg3JdCuKgFFRdEiSA0v7dZe+8PYC+jRbuhcDF5A+jomx9kl1Y453EzNC23HOS0rkZmk+RbRmfyZZQ==
 
-"@designliquido/delegua@^0.36.2":
-  version "0.36.2"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.36.2.tgz#4df79e74006d1409a3b3210680b14206b0b91d19"
-  integrity sha512-T61bEqHchNhNMuyL1dtAx7KLUJ3hA05x/Hsid0Rio1v030W0/V4edF3ddLe5H4K370oWlJk8oa90rS0hgaiSyg==
+"@designliquido/delegua@^0.37.0", "@designliquido/delegua@^0.37.2":
+  version "0.37.2"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-0.37.2.tgz#9870c738a4b6654e24f12c6f83410a11b1136879"
+  integrity sha512-5DT3s2maJpbCrrPOezttev8vai83iz4M3o/u3RR8sarQ0rKCexUhpMrVEMzAfsASt7j02drW3u6JZHRzlwxhbQ==
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
     browser-process-hrtime "^1.0.0"
     esprima "^4.0.1"
     lodash.clonedeep "^4.5.0"
 
-"@designliquido/mapler@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@designliquido/mapler/-/mapler-0.1.8.tgz#2b6783c16a3b38f2a9fe5432e2cf3da1337fb91a"
-  integrity sha512-ipHX6CERAuBxTfzM1HvQ2qDtgA4k0TBCRo1GMqnXux/G5TEEJYKm9OfsfnDtPGUFELJ1EeIGge0HuDdP9driuw==
+"@designliquido/mapler@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@designliquido/mapler/-/mapler-0.1.10.tgz#42cbf14d28ff1a169a35e2c6f5a1cd3ffa972cf4"
+  integrity sha512-IduSiN5JwbO/x7FnI9vaK2gkpCW8HtzrL+3H4L7tX1Fq6Eyk+mCTjVBO4pCLFNYv07K89xlI44wacm0ZPHmwAw==
   dependencies:
-    "@designliquido/delegua" "^0.36.2"
+    "@designliquido/delegua" "^0.37.2"
     lodash "^4.17.21"
     node-fetch "2"
 
-"@designliquido/portugol-studio@^0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.4.3.tgz#1104a9957e57f0609b944bf994a33520bed686fc"
-  integrity sha512-e9XZjlZsM742v3bGvvmReWEGK651V6ZuyUSHOozRT71OZlCfGNXIZL9C9fdv9qHJ7HHM3DfIpkvUMXmlhleRBA==
+"@designliquido/portugol-studio@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@designliquido/portugol-studio/-/portugol-studio-0.4.6.tgz#83a72fb018d34e5b54c38c87d70c46b62d06fae9"
+  integrity sha512-KRlnVFZFnjIoWx7KPvN900CaCi/OvjrMtuHuExMUEgqPo0idWgqCuVuGkRw0Be1/2ZehKwVhavldsdkolKHYBg==
   dependencies:
-    "@designliquido/delegua" "^0.36.2"
+    "@designliquido/delegua" "^0.37.2"
     lodash "^4.17.21"
     node-fetch "2"
     xml2js "^0.6.2"
 
-"@designliquido/potigol@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@designliquido/potigol/-/potigol-0.1.9.tgz#849f2193e56fe86b208061f70c58c7cbd8a7361c"
-  integrity sha512-vCI1lnvSheOg18/bK7nqUp7xTadTQxIE0QN95571IyB0hAfm3op+nhcNAcOh/utamFs0zx59Apk3d2DTHuysYw==
+"@designliquido/potigol@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@designliquido/potigol/-/potigol-0.1.11.tgz#1726cc0df2e3fd23457dc1554418bd35cf1ea4b5"
+  integrity sha512-q25Hv9AAr3KW7Mosah5uz+EZSTe9/NCZsCHak9XTU5aodgRNq/dG+5BEixZ80jBzIuxoIKP5GULEyJNJRRbzPg==
   dependencies:
-    "@designliquido/delegua" "^0.36.2"
+    "@designliquido/delegua" "^0.37.2"
     lodash "^4.17.21"
 
-"@designliquido/visualg@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@designliquido/visualg/-/visualg-0.3.5.tgz#22df6d3de8d770b5dea6ed26acdadd4c95467722"
-  integrity sha512-+b59jRPFybXX/vTErTM1ERdRcrBlzTFr7aMOC5F/Kh95BcSMpkRf8/6ChrgT31MhBWu1tklfGhhAxVSamuuA/g==
+"@designliquido/visualg@^0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@designliquido/visualg/-/visualg-0.3.6.tgz#11eb64a29f75de828c94b53696f760eee0944c15"
+  integrity sha512-Cm/M+WGnlrH7MFEbM8Ok4zUGfXK4m5nUMS0Vyy0tZJwchukc0zaYwJx2JNWD5z0xx1tbd1l4T/JTs/2N4H0VhQ==
   dependencies:
-    "@designliquido/delegua" "^0.36.2"
+    "@designliquido/delegua" "^0.37.0"
     lodash "^4.17.21"
 
 "@isaacs/cliui@^8.0.2":
@@ -135,13 +135,6 @@ ansi-regex@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.0.1.tgz#3183e38fae9a65d7cb5e53945cd5897d0260a06a"
   integrity sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==
-
-ansi-styles@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
-  integrity sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==
-  dependencies:
-    color-convert "^1.9.0"
 
 ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
@@ -207,15 +200,6 @@ chalk@4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
-  integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
-
 cliui@^7.0.2:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-7.0.4.tgz#a0265ee655476fc807aea9df3df8df7783808b4f"
@@ -225,13 +209,6 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-color-convert@^1.9.0:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
-  integrity sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==
-  dependencies:
-    color-name "1.1.3"
-
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
@@ -239,15 +216,15 @@ color-convert@^2.0.1:
   dependencies:
     color-name "~1.1.4"
 
-color-name@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
-  integrity sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==
-
 color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+
+colorette@^2.0.20:
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.20.tgz#9eb793e6833067f7235902fcd3b09917a000a95a"
+  integrity sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==
 
 combined-stream@^1.0.8:
   version "1.0.8"
@@ -256,10 +233,10 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^9.4.1:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
-  integrity sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==
+commander@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-12.1.0.tgz#01423b36f501259fdaac4d0e4d60c96c991585d3"
+  integrity sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -317,11 +294,6 @@ escalade@^3.1.1:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.2.tgz#54076e9ab29ea5bf3d8f1ed62acffbb88272df27"
   integrity sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==
-
-escape-string-regexp@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-  integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
 
 esprima@^4.0.1:
   version "4.0.1"
@@ -384,11 +356,6 @@ glob@^7.0.5:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-has-flag@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
-  integrity sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==
-
 has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
@@ -436,23 +403,17 @@ jackspeak@^4.0.1:
   optionalDependencies:
     "@pkgjs/parseargs" "^0.11.0"
 
-json-colorizer@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/json-colorizer/-/json-colorizer-2.2.2.tgz#07c2ac8cef36558075948e1566c6cfb4ac1668e6"
-  integrity sha512-56oZtwV1piXrQnRNTtJeqRv+B9Y/dXAYLqBBaYl/COcUdoZxgLBLAO88+CnkbT6MxNs0c5E9mPBIb2sFcNz3vw==
+json-colorizer@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/json-colorizer/-/json-colorizer-3.0.1.tgz#b6ca98de8e69f9d0c4e38f73fd1c0a6dec549d7c"
+  integrity sha512-4YyRAbD6eHeRnJD9vo0zjiU5fyY9QR6T+iYuH5DpO0XPThKWozpD4MaeY/8nLZIkHC3yEQMFLL+6P94E+JekDw==
   dependencies:
-    chalk "^2.4.1"
-    lodash.get "^4.4.2"
+    colorette "^2.0.20"
 
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
-
-lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-  integrity sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==
 
 lodash@^4.17.21:
   version "4.17.21"
@@ -677,13 +638,6 @@ strip-ansi@^7.0.1:
   integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
   dependencies:
     ansi-regex "^6.0.1"
-
-supports-color@^5.3.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
-  integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
-  dependencies:
-    has-flag "^3.0.0"
 
 supports-color@^7.1.0:
   version "7.2.0"
