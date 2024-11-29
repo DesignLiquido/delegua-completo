@@ -6,7 +6,7 @@
   <h3 align="center">Linguagem Delégua</h3>
 
   <p align="center">
-    Linguagem de programação, derivada da <a href="https://egua.tech/docs/egua" target="_blank">Linguagem Égua</a>
+    Linguagem de programação escrita em TypeScript, derivada da <a href="https://egua.tech/docs/egua" target="_blank">Linguagem Égua</a>
   </p>
 
   <p align="center">
@@ -35,7 +35,7 @@
   </p>
 </p>
 
-Pacote da Linguagem Delégua para NPM com todas as blbliotecas implementadas até então:
+Pacote da Linguagem Delégua para Node.js (NPM) com todas as blbliotecas implementadas até então:
 
 - O núcleo da linguagem propriamente dito: https://github.com/DesignLiquido/delegua
 - Biblioteca para estatística: https://github.com/DesignLiquido/delegua-estatistica
@@ -45,7 +45,7 @@ Pacote da Linguagem Delégua para NPM com todas as blbliotecas implementadas at�
 - Biblioteca para manejo de JSON (JavaScript Object Notation): https://github.com/DesignLiquido/delegua-json
 - Biblioteca para requisições HTTP: https://github.com/DesignLiquido/delegua-http
 
-Outra vantagem do uso deste pacote é a paridade de versões entre o núcleo e as bibliotecas. Por esta forma de instalação, todas as versões das bibliotecas estão devidamente pareadas com a versão da linguagem em si.
+Outra vantagem do uso deste pacote é a paridade de versões entre o núcleo e as bibliotecas. Por esta forma de instalação, todas as versões mais recentes de todas as bibliotecas de Delégua estão devidamente pareadas com a versão da linguagem em si.
 
 ## Instalação
 
@@ -56,3 +56,105 @@ Com o Node.js instalado, execute o seguinte comando em um prompt de comando (Ter
 ```bash
 npm install -g delegua
 ```
+
+### Usando como LAIR (Leia-Avalie-Imprima-Repita) em console
+
+Feita a instalação no seu ambiente, execute o seguinte comando:
+
+```sh
+delegua
+```
+
+Você terá um interpretador Delégua que avalia expressões linha a linha.
+
+Um exemplo de uso é como uma calculadora:
+
+```js
+delegua> 2 + 2
+4
+
+delegua> 2 * 3
+6
+
+delegua> 2 ** 10
+1024
+```
+
+Para finalizar a execução do interpretador LAIR Delégua, use o atalho <key>Ctrl</key> + <key>C</key> (todos os sistemas operacionais).
+
+Se quiser apenas ver a versão instalada (sem executar), use:
+
+```sh
+delegua -v
+```
+
+Ou
+
+```sh
+delegua --versao
+```
+
+#### Dialetos que suportam o modo LAIR
+
+- Delégua
+- Égua Clássico
+- Pituguês
+
+### Executando arquivos
+
+É possível usar o interpretador com outros dialetos, como Égua.
+
+```sh
+delegua --dialeto egua
+```
+
+Ou
+
+```sh
+delegua -d pitugues
+```
+
+[Veja aqui todos os dialetos suportados](https://github.com/DesignLiquido/delegua/wiki/Dialetos).
+
+### Executando código
+
+É possível passar código como argumento para Delégua usando a opção `-c`:
+
+```
+delegua -c "escreva('Olá mundo')"
+```
+
+## Tradução para outras linguagens
+
+```sh
+delegua --traduzir {linguagem-origem}-para-{linguagem-destino} meu-arquivo.{extensão}
+```
+
+Exemplos:
+
+```sh
+delegua --traduzir delegua-para-javascript meu-arquivo.delegua
+```
+ou
+
+```sh
+delegua --traduzir javascript-para-delegua meu-arquivo.js
+```
+
+De uma forma resumida, podemos alterar o `--traduzir` para `-t`, assim como para gerar um arquivo de saída basta passar o parâmetro `--saida` ou `-s`:
+
+```sh
+delegua --traduzir delegua-para-javascript --saida meu-arquivo.delegua
+```
+
+Traduções suportadas até o momento:
+ 
+- Delégua para JavaScript (`delegua-para-javascript` ou `delegua-para-js`)
+- Delégua para Python (`delegua-para-python` ou `delegua-para-py`)
+- Delégua para AssemblyScript (`delegua-para-assemblyscript` ou `delegua-para-as`)
+
+Traduções reversas suportadas até o momento:
+
+- JavaScript para Delégua (`javascript-para-delegua` ou `js-para-delegua`)
+- Python para Delégua (`python-para-delegua`)
+- VisuAlg para Delégua (`visualg-para-delegua`)
