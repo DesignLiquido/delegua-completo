@@ -39,10 +39,10 @@
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-matematica/-/delegua-matematica-0.3.0.tgz#fbd1048bc0efbadcecf96c3486f8c376b6516846"
   integrity sha512-UD276/tKuWuqky0FfwuI+QJ5M+nUpnGq9QWjqmqPJikXfhUjePpTR5bBz/Ni+6WfBtgW9FShJ4T9GH96jKYuGw==
 
-"@designliquido/delegua-node@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.4.0.tgz#e6d9518fad8fccb404c3251949b768fd547ac04f"
-  integrity sha512-lnaV4uKAS3hGfbj4RFiFKydm9HjyAmxnF0A64r8bmo5Hq2k7rmTH86SXCzp/M4ft2ryVcWAlNga4tCwQjbWR4g==
+"@designliquido/delegua-node@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-node/-/delegua-node-1.4.1.tgz#11fafec09bdbaaf710a761ef7431ea7d20b8bc54"
+  integrity sha512-N4pheFFVBDq+x0BoZy5mQHz7eCoKRvhBiuFPLGA9JbIyoUw08y90jgeH6OwD9pXGfM2I2/f0u+CuG83G2a4+yg==
   dependencies:
     "@designliquido/birl" "^0.1.11"
     "@designliquido/delegua" "^0.40.0"
