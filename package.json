@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais e dialetos de Portugol e Potigol embarcados.",
   "repository": {
     "type": "git",
@@ -46,12 +46,12 @@
     "@designliquido/delegua-http": "0.1.2",
     "@designliquido/delegua-json": "0.2.1",
     "@designliquido/delegua-matematica": "0.3.0",
-    "@designliquido/delegua-node": "1.9.2",
+    "@designliquido/delegua-node": "1.9.4",
     "@designliquido/delegua-tempo": "1.0.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.1.2"
   }
 }
