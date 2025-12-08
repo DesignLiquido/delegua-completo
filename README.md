@@ -38,6 +38,8 @@
 Pacote da Linguagem Delégua para Node.js (NPM) com todas as blbliotecas implementadas até então:
 
 - O núcleo da linguagem propriamente dito: https://github.com/DesignLiquido/delegua
+- Biblioteca para arquivos: https://github.com/DesignLiquido/delegua-arquivos
+- Biblioteca para criptografia: https://github.com/DesignLiquido/delegua-criptografia
 - Biblioteca para estatística: https://github.com/DesignLiquido/delegua-estatistica
 - Biblioteca para física: https://github.com/DesignLiquido/delegua-fisica
 - Biblioteca para matemática: https://github.com/DesignLiquido/delegua-matematica
@@ -94,6 +96,12 @@ Ou
 delegua --versao
 ```
 
+Para saber os demais comandos e opções, use:
+
+```sh
+delegua --ajuda
+```
+
 #### Dialetos que suportam o modo LAIR
 
 - Delégua
@@ -120,11 +128,19 @@ delegua -d pitugues
 
 É possível passar código como argumento para Delégua usando a opção `-c`:
 
-```
+```sh
 delegua -c "escreva('Olá mundo')"
 ```
 
+### Lendo código do _pipe_
+
+```sh
+echo 'escreva("Ola mundo")' | delegua -
+```
+
 ## Tradução para outras linguagens
+
+O comando geral é o seguinte:
 
 ```sh
 delegua --traduzir {linguagem-origem}-para-{linguagem-destino} meu-arquivo.{extensão}
@@ -148,10 +164,12 @@ delegua --traduzir delegua-para-javascript --saida meu-arquivo.delegua
 ```
 
 Traduções suportadas até o momento:
- 
+
+- Delégua para Assembly ARM (`delegua-para-arm`) (use a opção `-a` para especificar um alvo. Padrão: `linux-arm`)
+- Delégua para Assembly x64 (`delegua-para-x64`) (use a opção `-a` para especificar um alvo. Padrão: `linux`)
+- Delégua para AssemblyScript (`delegua-para-assemblyscript` ou `delegua-para-as`)
 - Delégua para JavaScript (`delegua-para-javascript` ou `delegua-para-js`)
 - Delégua para Python (`delegua-para-python` ou `delegua-para-py`)
-- Delégua para AssemblyScript (`delegua-para-assemblyscript` ou `delegua-para-as`)
 
 Traduções reversas suportadas até o momento:
 
