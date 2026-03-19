@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais e dialetos de Portugol e Potigol embarcados.",
   "repository": {
     "type": "git",
