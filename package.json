@@ -11,7 +11,8 @@
     "publicar-npm": "npm publish --access public"
   },
   "bin": {
-    "delegua": "bin/delegua"
+    "delegua": "bin/delegua",
+    "delegua-dap": "bin/delegua-dap"
   },
   "keywords": [
     "delegua",
@@ -40,20 +41,20 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@designliquido/delegua-arquivos": "0.0.3",
-    "@designliquido/delegua-criptografia": "0.3.3",
-    "@designliquido/delegua-csv": "0.0.2",
-    "@designliquido/delegua-estatistica": "0.1.0",
+    "@designliquido/delegua-arquivos": "0.0.4",
+    "@designliquido/delegua-criptografia": "0.3.4",
+    "@designliquido/delegua-csv": "0.0.3",
+    "@designliquido/delegua-estatistica": "0.1.1",
     "@designliquido/delegua-fisica": "0.1.0",
-    "@designliquido/delegua-http": "0.1.2",
-    "@designliquido/delegua-json": "0.2.1",
-    "@designliquido/delegua-matematica": "0.3.0",
-    "@designliquido/delegua-node": "1.16.1",
-    "@designliquido/delegua-tempo": "1.0.1",
-    "lodash": "^4.17.21"
+    "@designliquido/delegua-http": "0.1.3",
+    "@designliquido/delegua-json": "0.3.0",
+    "@designliquido/delegua-matematica": "0.4.0",
+    "@designliquido/delegua-node": "1.18.0",
+    "@designliquido/delegua-tempo": "1.1.1",
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
-    "rimraf": "^6.1.2"
+    "rimraf": "^6.1.3"
   }
 }

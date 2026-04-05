@@ -138,6 +138,54 @@ delegua -c "escreva('Olá mundo')"
 echo 'escreva("Ola mundo")' | delegua -
 ```
 
+## Depuração
+
+A instalação do pacote `delegua` inclui o comando `delegua-dap`, que implementa o [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/) (DAP) da Microsoft. Qualquer editor ou IDE com suporte a DAP pode depurar programas Delégua sem configuração adicional.
+
+### Iniciando o adaptador DAP
+
+```sh
+delegua-dap
+```
+
+O adaptador lê requisições de `stdin` e escreve respostas em `stdout` usando JSON-RPC com cabeçalho `Content-Length`, conforme especificado pelo protocolo DAP.
+
+### Usando com o Code::Blocks
+
+Instale o plugin **LinguagensDL** no Code::Blocks. O plugin já usa `delegua-dap` como adaptador padrão — basta ter o pacote `delegua` instalado globalmente e o depurador funcionará automaticamente ao acionar "Depurar arquivo atual".
+
+### Usando com o VS Code
+
+No arquivo `launch.json` do seu projeto:
+
+```json
+{
+    "type": "delegua",
+    "request": "launch",
+    "name": "Depurar arquivo Delégua",
+    "program": "${file}",
+    "dialeto": "delegua"
+}
+```
+
+### Comandos DAP suportados
+
+| Comando             | Descrição                                              |
+|---------------------|--------------------------------------------------------|
+| `initialize`        | Handshake inicial; retorna capabilities                |
+| `launch`            | Carrega o programa (`program`) e dialeto               |
+| `setBreakpoints`    | Define pontos de parada por arquivo e linha            |
+| `configurationDone` | Inicia execução até o primeiro ponto de parada         |
+| `threads`           | Retorna a lista de threads                             |
+| `stackTrace`        | Retorna a pilha de execução                            |
+| `scopes`            | Retorna os escopos de um frame                         |
+| `variables`         | Retorna as variáveis de um escopo                      |
+| `continue`          | Retoma execução até o próximo ponto de parada          |
+| `next`              | Passo sobre (_Step Over_)                              |
+| `stepIn`            | Passo dentro (_Step Into_)                             |
+| `stepOut`           | Passo fora (_Step Out_)                                |
+| `disconnect`        | Encerra a sessão                                       |
+
 ## Tradução para outras linguagens
 
 O comando geral é o seguinte:
