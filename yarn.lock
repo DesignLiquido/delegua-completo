@@ -43,6 +43,11 @@
   dependencies:
     axios "^1.8.4"
 
+"@designliquido/delegua-interface-grafica@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua-interface-grafica/-/delegua-interface-grafica-0.0.1.tgz#ac52a6e540e6ff8aab878f04709970c91ab4a337"
+  integrity sha512-mxJIyyoPu+Uow9+YzUiztFRL7Lcn+FqGtQbyMBHt+Kk8lWLTvTmrl/AI1e1a76dr1l38HRa4vRYaKZMpxhWFsA==
+
 "@designliquido/delegua-json@0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@designliquido/delegua-json/-/delegua-json-0.3.0.tgz#a3e7b16df650d9bb442c8c7233815940f3b4a872"
