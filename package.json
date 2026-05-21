@@ -42,6 +42,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
+    "@designliquido/delegua": "^1.23.2",
     "@designliquido/delegua-arquivos": "0.0.4",
     "@designliquido/delegua-criptografia": "0.3.4",
     "@designliquido/delegua-csv": "0.0.3",
