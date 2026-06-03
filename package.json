@@ -54,7 +54,7 @@
     "@designliquido/delegua-interface-grafica": "0.1.0",
     "@designliquido/delegua-json": "0.3.0",
     "@designliquido/delegua-matematica": "0.4.0",
-    "@designliquido/delegua-node": "1.22.0",
+    "@designliquido/delegua-node": "1.22.1",
     "@designliquido/delegua-tempo": "1.1.1",
     "@designliquido/delegua-yaml": "0.0.2",
     "lodash": "^4.18.1"
