@@ -1,6 +1,6 @@
 {
   "name": "delegua",
-  "version": "1.12.5",
+  "version": "1.12.6",
   "description": "Pacote NPM da Linguagem Delégua, com todas as bibliotecas oficiais e dialetos de Portugol e Potigol embarcados.",
   "repository": {
     "type": "git",
@@ -42,7 +42,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@designliquido/delegua": "^1.26.0",
+    "@designliquido/delegua": "^1.26.1",
     "@designliquido/delegua-arquivos": "0.0.4",
     "@designliquido/delegua-criptografia": "0.3.4",
     "@designliquido/delegua-csv": "0.0.3",
