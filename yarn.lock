@@ -139,6 +139,16 @@
     esprima "^4.0.1"
     lodash.clonedeep "^4.5.0"
 
+"@designliquido/delegua@^1.28.7":
+  version "1.28.7"
+  resolved "https://registry.yarnpkg.com/@designliquido/delegua/-/delegua-1.28.7.tgz#92109dc1360fb352ea1196cb24fcc5714fa913c2"
+  integrity sha512-96AnVSyYEimBBzjk9m5q05nBgtC4vAjIhOdNHnlvP23Mgj/eVYm7AUJO4vea8Gzs5iWLx093RO+nyb3vYG/Y9Q==
+  dependencies:
+    antlr4ts "^0.5.0-alpha.4"
+    browser-process-hrtime "^1.0.0"
+    esprima "^4.0.1"
+    lodash.clonedeep "^4.5.0"
+
 "@designliquido/delprops@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@designliquido/delprops/-/delprops-0.0.1.tgz#9e6108dfd67062eb1649ef4c3741424167c79dc3"
